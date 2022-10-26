@@ -10,6 +10,15 @@ public class TennisCoach implements Coach{
     @Qualifier("randomFortuneService")
     private FortuneService fortuneService;
 
+
+    // define my init method
+    public void doMyStartupStuff(){
+        System.out.println(">> TennishCoach: inside of doMyStartupStuff");
+    }
+    // define my destroy method
+    public void doMyCleanupStart(){
+        System.out.println(">> TennishCoach: inside of doMyCleanupStuff");
+    }
 //    @Autowired
 //    public TennisCoach(FortuneService fortuneService) {
 //        this.fortuneService = fortuneService;
