@@ -12,13 +12,13 @@ public class TennisCoach implements Coach{
 
 
     // define my init method
-    public void doMyStartupStuff(){
-        System.out.println(">> TennishCoach: inside of doMyStartupStuff");
-    }
+//    public void doMyStartupStuff(){
+//        System.out.println(">> TennishCoach: inside of doMyStartupStuff");
+//    }
     // define my destroy method
-    public void doMyCleanupStart(){
-        System.out.println(">> TennishCoach: inside of doMyCleanupStuff");
-    }
+//    public void doMyCleanupStart(){
+//        System.out.println(">> TennishCoach: inside of doMyCleanupStuff");
+//    }
 //    @Autowired
 //    public TennisCoach(FortuneService fortuneService) {
 //        this.fortuneService = fortuneService;
